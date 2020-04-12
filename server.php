@@ -29,6 +29,7 @@ do {
     echo "Enter reply:\t";
     $reply = $line->readline();
 
+
     socket_write($accept, $reply, strlen($reply)) or die("Could not write output\n");
 } while (true);
 
