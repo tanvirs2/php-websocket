@@ -41,7 +41,7 @@
 
         <tr>
             <td>
-                <textarea name="" id="" cols="40" rows="10">
+                <textarea name="" id="" cols="30" rows="10">
                     <?php echo $reply ?>
                 </textarea>
             </td>
